@@ -1,0 +1,78 @@
+{
+  "start": "2026-07-01T00:00:00",
+  "total_minutes": 4320,
+  "anomalies": [
+    {
+      "start_min": 277,
+      "end_min": 293,
+      "type": "traffic_spike",
+      "service": "user-api"
+    },
+    {
+      "start_min": 772,
+      "end_min": 795,
+      "type": "error_burst",
+      "service": "auth-api"
+    },
+    {
+      "start_min": 827,
+      "end_min": 843,
+      "type": "error_burst",
+      "service": "user-api"
+    },
+    {
+      "start_min": 972,
+      "end_min": 982,
+      "type": "traffic_spike",
+      "service": "gateway"
+    },
+    {
+      "start_min": 1082,
+      "end_min": 1104,
+      "type": "error_burst",
+      "service": "user-api"
+    },
+    {
+      "start_min": 2066,
+      "end_min": 2083,
+      "type": "error_burst",
+      "service": "auth-api"
+    },
+    {
+      "start_min": 2338,
+      "end_min": 2348,
+      "type": "error_burst",
+      "service": "search-api"
+    },
+    {
+      "start_min": 2461,
+      "end_min": 2482,
+      "type": "traffic_spike",
+      "service": "billing-api"
+    },
+    {
+      "start_min": 2817,
+      "end_min": 2830,
+      "type": "error_burst",
+      "service": "search-api"
+    },
+    {
+      "start_min": 2847,
+      "end_min": 2865,
+      "type": "error_burst",
+      "service": "billing-api"
+    },
+    {
+      "start_min": 2877,
+      "end_min": 2895,
+      "type": "error_burst",
+      "service": "search-api"
+    },
+    {
+      "start_min": 3496,
+      "end_min": 3513,
+      "type": "latency_spike",
+      "service": "user-api"
+    }
+  ]
+}
